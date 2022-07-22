@@ -2,7 +2,6 @@
     "name": "webshape-app",
     "version": "1.0.0",
     "description": "WebShape application for site management & billing",
-    "main": "index.js",
     "scripts": {
         "dev": "rimraf dist && parcel src/index.html",
         "build": "parcel build src/index.html"
