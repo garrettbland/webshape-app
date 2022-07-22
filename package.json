@@ -4,8 +4,8 @@
     "description": "WebShape application for site management & billing",
     "main": "index.js",
     "scripts": {
-        "dev": "parcel src/index.html",
-        "build": "parcel build"
+        "dev": "rimraf dist && parcel src/index.html",
+        "build": "parcel build src/index.html"
     },
     "author": "Garrett Bland",
     "license": "ISC",
@@ -21,7 +21,6 @@
         "@types/node": "^18.0.6",
         "@types/react": "^18.0.15",
         "@types/react-dom": "^18.0.6",
-        "autoprefixer": "^10.4.7",
         "eslint": "^8.20.0",
         "eslint-config-next": "^12.2.3",
         "jest": "^28.1.3",
