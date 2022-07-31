@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.isActive {
+    @apply text-green-500;
+}
+
+.notActive .sideBorder {
+    @apply group-hover:bg-green-500;
+}
+
+.isActive .sideBorder {
+    @apply bg-green-500;
+}
